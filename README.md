@@ -1,46 +1,90 @@
-# Getting Started with Create React App
+# 🐍 React Snake Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+현대적인 디자인과 다양한 파워업 아이템이 추가된 리액트 스네이크 게임입니다.
 
-## Available Scripts
+## ✨ 주요 기능
 
-In the project directory, you can run:
+- 🎮 모바일 터치 컨트롤 지원
+- 🎵 게임 효과음
+- 💫 애니메이션 효과
+- 🏆 최고 점수 기록
+- 🎲 4가지 파워업 아이템:
+  - ⚡ 속도 증가
+  - ❄️ 속도 감소
+  - 💎 추가 점수
+  - 🛡️ 무적 모드
+- 🎚️ 3가지 난이도 설정
+- 📱 반응형 디자인
 
-### `npm start`
+## 🛠️ 기술 스택
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- Styled Components
+- Framer Motion
+- use-sound
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 시작하기
 
-### `npm test`
+1. 저장소 클론
+```bash
+git clone https://github.com/[your-username]/react-snake-game.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. 의존성 설치
+```bash
+cd react-snake-game
+npm install
+```
 
-### `npm run build`
+3. 개발 서버 실행
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. 브라우저에서 확인
+```
+http://localhost:3000
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎮 게임 방법
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 방향키로 뱀을 조종합니다
+- 빨간 먹이를 먹으면 점수가 올라갑니다
+- 벽이나 자신의 몸에 부딪히면 게임이 종료됩니다
+- 파워업 아이템을 활용하여 높은 점수를 노려보세요!
 
-### `npm run eject`
+### 🎁 파워업 아이템
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- ⚡ 노란색: 5초간 속도 증가
+- ❄️ 파란색: 5초간 속도 감소
+- 💎 분홍색: 즉시 50점 추가
+- 🛡️ 보라색: 10초간 무적 상태
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🎚️ 난이도 설정
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- 쉬움: 파워업 등장 확률 40%
+- 보통: 파워업 등장 확률 20%
+- 어려움: 파워업 등장 확률 10%
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🎨 특징
 
-## Learn More
+- 모던한 UI/UX 디자인
+- 부드러운 애니메이션
+- 반응형 레이아웃
+- 모바일 지원
+- 로컬 스토리지 기반 최고 점수 저장
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📱 모바일 지원
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 터치 기반 컨트롤
+- 반응형 게임 보드
+- 모바일에 최적화된 UI
+
+## 🤝 기여하기
+
+버그 리포트, 기능 제안, 풀 리퀘스트 모두 환영합니다!
+
+## 📄 라이선스
+
+MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
